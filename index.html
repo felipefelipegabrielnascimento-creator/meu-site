@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Meu Portfólio</title>
+
 <style>
 body{
     font-family: Arial,sans-serif;
@@ -12,27 +13,39 @@ body{
     text-align:center;
     margin:0;
 }
+
 header{
     background:#222;
     padding:30px;
 }
+
 h1{
     color:#00ff88;
 }
+
 .card{
     background:#1e1e1e;
     margin:20px;
     padding:20px;
     border-radius:10px;
 }
+
 button{
     background:#00ff88;
     border:none;
     padding:10px 20px;
     border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    margin:auto;
 }
 </style>
 </head>
+
 <body>
 
 <header>
@@ -47,8 +60,15 @@ button{
 
 <div class="card">
     <h2>Contato</h2>
-    <p>WhatsApp: SEU NÚMERO</p>
-    <button>Entrar em contato</button>
+    <p>Clique abaixo para acessar meu Instagram</p>
+
+    <a href="https://www.instagram.com/fg_sites?igsh=MTBienlqMXFtN3p6ZA==" target="_blank">
+        <button>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" 
+                 width="20" height="20">
+            Abrir Instagram
+        </button>
+    </a>
 </div>
 
 </body>
